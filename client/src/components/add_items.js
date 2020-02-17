@@ -87,12 +87,12 @@ return (
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="email">Email description</label>
+                <label htmlFor="email">Ingredients</label>
                 <input
                   type="text"
                   className="form-control"
                   name="description"
-                  placeholder="Enter item description"
+                  placeholder="Enter the ingredients"
                   value={this.state.description}
                   onChange={this.onChange}
                 />
