@@ -6,11 +6,12 @@ file structure: food-recipe-web-app:
  - database (backend nodejs) 
  - models (backend nodejs) 
  - routes (backend nodejs) 
+ - nodejs_login.sql (backend mysql file)
  - server.js (backend node.js)
 
 steps to run backend:
-   - We need apache and  mysql server(eg:xampp,wamp,workbench) to run backend
-   - then install node modules inside food-recipe-web-app folder(cmd - npm install)
+   - We need apache and  mysql server(eg:xampp,wamp,workbench) to run backend, them import nodejs_login.sql file into mysql server
+   - then install required node modules inside food-recipe-web-app folder(cmd - npm install)
    - use npm start cmd to run the backend.
       
 steps to run frontend:
