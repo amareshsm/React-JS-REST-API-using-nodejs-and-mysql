@@ -4,7 +4,6 @@ const sequelize = new Sequelize('nodejs_login', 'root', '', {
   host: 'localhost',
   dialect: 'mysql',
   operatorsAliases: false,
-
   pool: {
     max: 5,
     min: 0,
@@ -12,7 +11,6 @@ const sequelize = new Sequelize('nodejs_login', 'root', '', {
     idle: 10000
   }
 })
-
 db.sequelize = sequelize
 db.Sequelize = Sequelize
 

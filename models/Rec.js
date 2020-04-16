@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize')
 const db = require('../database/db.js')
 var nametable = 'food_recipes';
-
 var Rec = db.sequelize.define(nametable,{
 
     id: {
@@ -27,8 +26,5 @@ var Rec = db.sequelize.define(nametable,{
   },
   {
     timestamps: false
-  
 })
-
-
 module.exports = Rec

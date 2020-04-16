@@ -4,7 +4,6 @@ import {
   Link
 } from "react-router-dom";
 import jwt_decode from 'jwt-decode'
-
 import { update_req } from './UserFunctions'
 import axios from 'axios'
 
@@ -25,7 +24,6 @@ constructor(){
     recipe:null,
     errors: {}
   }
-
   if(localStorage.getItem('usertoken')!==null){
     var token=localStorage.getItem('usertoken')
     const decoded = jwt_decode(token)
@@ -33,7 +31,6 @@ constructor(){
       userid:decoded.id,
     }
   } 
-
   this.onChange = this.onChange.bind(this)
   this.onSubmit = this.onSubmit.bind(this)
 }  
