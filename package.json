@@ -15,7 +15,7 @@
   ],
   "author": "Amaresh S M ",
   "dependencies": {
-    "bcrypt": "^3.0.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
     "express": "^4.17.1",
